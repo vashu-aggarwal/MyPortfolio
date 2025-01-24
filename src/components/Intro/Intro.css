@@ -1,0 +1,179 @@
+.intro {
+    height: calc(90vh - 4rem);
+    width: 90vw;
+    max-width: 90rem;
+    max-height: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /* background-color: red; */
+    
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    max-width: 50%;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 2;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName {
+    color: #f5cb5c;
+}
+.introText {
+    color: #cfdbd5;
+    line-height: 1.2;
+}
+
+
+.introPara {
+    font-size: medium;
+    font-weight: 200;
+    color: #e8eddf;
+    line-height: 1.5;
+}
+
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.btn:hover {
+    background-color: #f5cb5c;
+    color: #242423;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+.bgContainer {
+    position: absolute;
+    right: 0;
+    margin-top: 2rem;
+    top: 50%;
+    width: 25%;
+    height: 90%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    box-sizing: border-box;
+    /* background-color: green; */
+}
+
+.bg {
+    width: full;
+    height: 65vh;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+@media screen and (max-width: 840px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .introContent {
+        max-width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .hello {
+        font-size: 1.25rem;
+    }
+
+    .introText {
+        font-size: 1.5rem;
+    }
+
+    .introPara {
+        font-size: 0.6rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    .bgContainer {
+        position: relative;
+        width: 80%;
+        height: 60%;
+        margin-top: 2rem;
+    }
+
+    .bg {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .intro{
+        height: auto;
+        
+    }
+    .introContent {
+        font-size: 1rem;
+        /* background-color: red; */
+        height: 100%;
+        margin-top: 0.1rem;
+    }
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .introText {
+        font-size: 2rem;
+    }
+
+    .introPara {
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .btn {
+        font-size: 0.75rem;
+    }
+
+    .bgContainer {
+        position: relative;
+        width: 50%;
+        height: auto;
+        margin-top: 10rem;
+    }
+
+    .bg {
+        width: 100%;
+        height: auto;
+    }
+}
+

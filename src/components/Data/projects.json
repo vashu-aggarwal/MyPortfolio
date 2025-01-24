@@ -1,0 +1,73 @@
+
+[
+    {
+      "title": "Obeys Agency",
+      "imageSrc": "obeysagency.png",
+      "description": "Developed a visually captivating font-focused clone of the Obeys Agency website using advanced CSS, GSAP, and Locomotive.js to achieve smooth animations and dynamic scrolling effects. Integrated Textile.js for enhanced typography, ensuring an engaging and responsive user experience.",
+      "skills":  ["HTML ", "CSS ", "GSAP ", "Locomotive.js ", "JavaScript ", "Textile.js "],
+      "demo": "https://vashu-aggarwal.github.io/Obys-Agency/",
+      "source": "https://github.com/vashu-aggarwal/Obys-Agency",
+      "video":"https://www.youtube.com/watch?v=ooK3yAvftR0",
+      "showDemo":true
+    },
+    {
+      "title": "Food Chef",
+      "imageSrc": "FoodChef.jpg",
+      "description": "Developed an interactive and responsive food ordering platform with React.js, utilizing Redux Toolkit for efficient state management and seamless user experience. Built dynamic features such as restaurant listings, detailed menu views, and a real-time updating shopping cart system to enhance user convenience.",
+      "skills": ["HTML ", "Tailwind CSS ", "CSS ", "JavaScript ", "React ", "Redux Toolkit"],
+      "demo": "https://cheffood.netlify.app/",
+      "source": "https://github.com/vashu-aggarwal/FoodChef",
+      "video":"https://www.youtube.com/watch?v=1ruYwfLz76Q",
+      "showDemo":true
+    },
+    {
+      "title": "Coin Chronicle",
+      "imageSrc": "Cryptoimage.jpeg",
+      "description": "Developed a comprehensive cryptocurrency tracking website using React and Redux Toolkit for state management, offering real-time monitoring of over 100 cryptocurrencies. Integrated Chart.js to visualize historical data, including price trends and trading volumes, while implementing features like bookmarking and detailed coin descriptions for enhanced user engagement.",
+      "skills": ["HTML ", "CSS ", "React ", "JavaScript ", "Framer Motion ", "Redux Toolkit "],
+      "demo": "https://coinchronicle.netlify.app/",
+      "source": "https://github.com/vashu-aggarwal/Coin-Chronicle",
+      "video":"https://www.youtube.com/watch?v=wgPki5SOPGY",
+      "showDemo":true
+    },
+    {
+      "title": "Live Saver",
+      "imageSrc": "Livesaver.avif",
+      "description": "Developed a robust blood bank management application using React.js, Node.js, and MongoDB, catering to four distinct user roles: Donor, Admin, Organization, and Hospital. Implemented JWT-based authentication for security and built user-friendly dashboards displaying donation histories, stock levels, and pending requests for efficient decision-making.",
+      "skills": ["HTML ", "CSS ", "React.js ", "Redux ", "Node.js ", "Express.js ", "MongoDB "],
+      "demo": "https://lifesaver-n0jt.onrender.com/login",
+      "source": "https://github.com/vashu-aggarwal/Lifesaver",
+      "video":"https://www.youtube.com/watch?v=JQm5PqmGiMs",
+      "showDemo":true
+    },
+    {
+      "title": "Stock Price Predictor",
+      "imageSrc": "stock.avif",
+      "description": "Developed a stock price prediction model using an LSTM neural network trained on over 3,000 daily stock price data points. The model predicted future stock prices based on the last 100 days of data with 97% accuracy. Created a Streamlit app to visualize trends, moving averages, and compare predictions with actual prices.",
+      "skills": ["NumPy ", "Pandas ", "LSTM ", "TensorFlow ", "Keras ", "Yahoo Finance ", "Streamlit"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/vashu-aggarwal/Stock-Price-Prediction",
+      "video":"https://www.youtube.com/watch?v=INAqrZS8thQ",
+      "showDemo":false
+    },
+    {
+      "title": "Fake News Detector",
+      "imageSrc": "fake.avif",
+      "description": "Engineered a Fake News Detection classifier using logistic regression, decision tree, gradient boosting, and random forest, achieving accuracies of 93%, 90%, 92%, and 88%, respectively. The system classifies English articles as real or fake based on a dataset from Kaggle, providing reliable detection of misinformation.",
+      "skills": ["NumPy ", "Pandas ", "Matplotlib ", "scikit-learn "],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/vashu-aggarwal/Fake_News_Detection",
+      "video":"https://www.youtube.com/watch?v=m4z2YsrgkR0",
+      "showDemo":false
+    },
+    {
+      "title": "Facial Expression",
+      "imageSrc": "facial.avif",
+      "description": "Built a facial expression detection system using CNN to classify 35,000 images into 7 emotions: Anger, Happy, Sad, Fear, Surprised, and Neutral. Achieved 85% accuracy and implemented real-time detection through a webcam. Enhanced data preprocessing with NumPy and Pandas while integrating Firebase for user authentication and data synchronization.",
+      "skills": ["NumPy ", "Pandas ", "CNN ", "TensorFlow ", "cv2 ", "Keras "],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/vashu-aggarwal/Facial-Expression",
+      "video":"https://www.youtube.com/watch?v=bBuOBLEaXm4",
+      "showDemo":false
+    }
+  ]
